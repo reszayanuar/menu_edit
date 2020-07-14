@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingTop="8dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="8dp">
+
+
+    <ImageView
+        android:id="@+id/imageList"
+        android:layout_width="152dp"
+        android:layout_height="112dp"
+        android:layout_gravity="center"
+        android:src="@drawable/trafo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KD GARDU"
+            android:textSize="16dp"
+            android:id="@+id/nama_data_list"
+            android:textStyle="bold"
+            android:drawablePadding="5dp"/>
+
+        <TextView
+            android:id="@+id/text_nomorseri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOMOR SERI" />
+
+        <TextView
+            android:id="@+id/text_gardu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JENIS GARDU" />
+
+        <TextView
+            android:id="@+id/text_subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ALAMAT" />
+
+        <TextView
+            android:id="@+id/text_merk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MERK" />
+        <TextView
+            android:id="@+id/text_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STATUS" />
+        <TextView
+            android:id="@+id/text_kondisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KONDISI" />
+
+    </LinearLayout>
+</LinearLayout>
